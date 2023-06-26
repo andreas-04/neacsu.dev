@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Neacsu.dev - Home</title>
+    <style>
+        /* Add CSS styles here */
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #333;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            flex: 1;
+            margin: 20px;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            font-size: 28px;
+            color: #333;
+        }
+
+        p {
+            font-size: 18px;
+            color: #666;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+        }
+
+        .blog-post {
+            border: 1px solid #ccc;
+            padding: 20px;
+            background-color: #f8f8f8;
+        }
+
+        .blog-post h2 {
+            font-size: 24px;
+            color: #333;
+        }
+
+        .blog-post p {
+            font-size: 16px;
+            color: #666;
+        }
+
+        footer {
+            background-color: #f4f4f4;
+            padding: 10px;
+            text-align: center;
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/projects">Projects</a></li>
+                <li><a href="/resume">Resume</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>Welcome to Neacsu.dev</h1>
+            <p>A student of Computer Science at the University of Idaho.</p>
+        </section>
+
+        <section>
+            <h2>Blog</h2>
+            <div class="grid">
+                <div class="blog-post">
+                    <h2>Blog Post 1</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce scelerisque eget purus nec ullamcorper.</p>
+                </div>
+                <div class="blog-post">
+                    <h2>Blog Post 2</h2>
+                    <p>Curabitur eu felis ut ex consequat laoreet in non neque. Nunc dignissim enim felis, eu lobortis neque dapibus eget.</p>
+                </div>
+                <div class="blog-post">
+                    <h2>Blog Post 3</h2>
+                    <p>Aliquam erat volutpat. Vivamus hendrerit consectetur dui nec condimentum. Suspendisse efficitur mi ac ligula volutpat pellentesque.</p>
+                </div>
+                <!-- Add more blog posts here -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Neacsu.dev. All rights reserved.</p>
+    </footer>
+</body>
+</html>
